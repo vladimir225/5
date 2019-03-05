@@ -1,0 +1,211 @@
+body {
+  font-size: 14px;
+  font-family: "Arial", sans-serif;  
+  line-height: 22px;
+  background-color: black; 
+  color:rgb(90, 83, 83);
+}
+
+h1 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 8px;
+  line-height: 14px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:  underline;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  
+  
+
+  
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(90, 83, 83);
+  font-size: 8px;
+  line-height: 14px;
+  color: white;
+  box-sizing: border-box;
+  padding: 15px 10% 15px 10%;
+}
+
+.headerTop {
+  display: flex;
+  background-color: #cccccc;
+  padding: 30px 80px;
+  flex-direction: column;
+  
+  
+  
+
+}
+
+.contactsContainer {
+ display: flex;
+ 
+ 
+
+}
+
+.name {
+  display: flex;
+  margin-right: auto;
+  
+}
+
+.square {
+  height: 60px; 
+  width: 67px;
+  background-color: rgb(90, 83, 83);
+
+}
+
+.headerText {
+  height: 100%;
+  width: 70%;
+  float: right;
+  font-size: 16px;
+  line-height: 16px;
+  box-sizing: border-box;
+  padding: 0px 5px;
+
+}
+
+.contacts {
+  display: flex;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+  align-items: center;
+
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(90, 83, 83);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menuText {
+  display: inline-block;
+  color: white;
+  margin: auto;
+}
+
+.slider {
+  width: 620px;
+  height:160px;
+}
+
+.contentContainer {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 80px;
+
+}
+
+.content {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+
+.newsContainer {
+  display:flex;
+  margin-right: 20px;
+  
+
+}
+
+
+.news {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(90, 83, 83);
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  
+ 
+}
+
+.archive {
+  text-align:right;
+  text-decoration: underline;
+}
+
+.archive:hover {
+  color: black;
+}
+
+.info {
+  display:inline-block;
+  font-size: 16px;
+
+  
+  
+}
+
+.footerLeft {
+  
+  
+}
+
+.footerRight {
+  display:flex;
+  width: 30%;
+  
+}
+
+.svg {
+  height: 30px;
+  width: 25%;
+  
+  
+}
+
+.development {
+  width: 75%;
+  
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.footerMenu {
+  text-decoration: underline;
+}
+
+.footerMenu:hover {
+  color: black;
+}
